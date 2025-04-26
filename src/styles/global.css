@@ -27,6 +27,27 @@
   --color-popover-foreground: hsl(var(--popover-foreground));
   --color-card:             hsl(var(--card));
   --color-card-foreground:  hsl(var(--card-foreground));
+
+  /* Odonto */
+  --color-background-odonto:         hsl(var(--background-odonto));
+  --color-foreground-odonto:         hsl(var(--foreground-odonto));
+  --color-card-odonto:               hsl(var(--card-odonto));
+  --color-card-foreground-odonto:    hsl(var(--card-foreground-odonto));
+  --color-popover-odonto:            hsl(var(--popover-odonto));
+  --color-popover-foreground-odonto: hsl(var(--popover-foreground-odonto));
+  --color-primary-odonto:            hsl(var(--primary-odonto));
+  --color-primary-foreground-odonto: hsl(var(--primary-foreground-odonto));
+  --color-secondary-odonto:          hsl(var(--secondary-odonto));
+  --color-secondary-foreground-odonto: hsl(var(--secondary-foreground-odonto));
+  --color-muted-odonto:              hsl(var(--muted-odonto));
+  --color-muted-foreground-odonto:   hsl(var(--muted-foreground-odonto));
+  --color-accent-odonto:             hsl(var(--accent-odonto));
+  --color-accent-foreground-odonto:  hsl(var(--accent-foreground-odonto));
+  --color-destructive-odonto:        hsl(var(--destructive-odonto));
+  --color-destructive-foreground-odonto: hsl(var(--destructive-foreground-odonto));
+  --color-border-odonto:             hsl(var(--border-odonto));
+  --color-input-odonto:              hsl(var(--input-odonto));
+  --color-ring-odonto:               hsl(var(--ring-odonto));
 }
 
 @utility container {
@@ -77,6 +98,28 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Odonto */
+    --background-odonto: 0 0% 100%;
+    --foreground-odonto: 222.2 84% 4.9%;
+    --card-odonto: 0 0% 100%;
+    --card-foreground-odonto: 222.2 84% 4.9%;
+    --popover-odonto: 0 0% 100%;
+    --popover-foreground-odonto: 222.2 84% 4.9%;
+    --primary-odonto: 173 80% 40%;
+    --primary-foreground-odonto: 210 40% 98%;
+    --secondary-odonto: 210 40% 96.1%;
+    --secondary-foreground-odonto: 222.2 47.4% 11.2%;
+    --muted-odonto: 210 40% 96.1%;
+    --muted-foreground-odonto: 215.4 16.3% 46.9%;
+    --accent-odonto: 210 40% 96.1%;
+    --accent-foreground-odonto: 222.2 47.4% 11.2%;
+    --destructive-odonto: 0 84.2% 60.2%;
+    --destructive-foreground-odonto: 210 40% 98%;
+    --border-odonto: 214.3 31.8% 91.4%;
+    --input-odonto: 214.3 31.8% 91.4%;
+    --ring-odonto: 173 80% 40%;
+    --radius-odonto: 0.5rem;
   }
   .dark {
     --background: 0 0% 3.9%;

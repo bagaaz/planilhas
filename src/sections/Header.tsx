@@ -12,7 +12,7 @@ export default function Header() {
           <Link href="/construcao" className="text-sm font-medium hover:underline underline-offset-4">
             Controle de Custo de Construção
           </Link>
-          <Link href="/dentistas" className="text-sm font-medium hover:underline underline-offset-4">
+          <Link href="/odonto" className="text-sm font-medium hover:underline underline-offset-4">
             Cálculo para Dentistas
           </Link>
           <Link href="/todos-produtos" className="text-sm font-medium hover:underline underline-offset-4">
