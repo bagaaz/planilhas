@@ -2,6 +2,8 @@ import "../styles/global.css";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
 import React from "react";
+import HeaderSwitcher from "../components/HeaderSwitcher";
+import FooterSwitcher from "../components/FooterSwitcher";
 
 export const metadata = {
   title: "Planilhas Facil",
@@ -12,9 +14,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
   <html lang="pt-BR">
     <body className="flex min-h-screen flex-col">
-      <Header />
+      <HeaderSwitcher />
       <main>{ children }</main>
-      <Footer />
+      <FooterSwitcher />
     </body>
   </html>
   );

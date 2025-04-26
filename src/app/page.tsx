@@ -1,5 +1,3 @@
-import Link from "next/link"
-import { FileSpreadsheet, BarChart3, Calculator, Clock, Shield, CheckCircle } from "lucide-react"
 import Hero from "../sections/Hero";
 import FeaturedSpreadsheets from "../sections/FeaturedSpreadsheets";
 import Benefits from "../sections/Benefits";
