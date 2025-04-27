@@ -1,13 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
+import { BarChart3 } from "lucide-react";
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white">
       <div className="container mx-auto max-w-7xl flex h-16 items-center justify-between px-4">
-        <div className="flex items-center gap-2 font-bold text-xl text-teal-600">
-          <span>PlanilhasFacil</span>
-        </div>
+        <Link href="/" className="flex items-center gap-2 font-bold text-xl text-teal-600">
+          <BarChart3 className="h-6 w-6" />
+          <span>Planilhas Facil</span>
+        </Link>
         <nav className="hidden md:flex gap-6">
           <Link href="#recursos" className="text-sm font-medium hover:text-teal-600 transition-colors">
             Recursos

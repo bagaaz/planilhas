@@ -46,7 +46,7 @@ export default function FeaturedSpreadsheets() {
             </div>
             <div className="pt-4 w-full">
               <Link
-                href="/construcao"
+                href="/construction"
                 className="inline-flex w-full h-10 items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-700"
               >
                 Ver Detalhes
