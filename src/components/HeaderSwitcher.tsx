@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
 import HeaderOdonto from "../sections/odonto/HeaderOdonto";
+import HeaderContruction from "../sections/construction/HeaderContruction";
 
 export default function HeaderSwitcher({ children }: PropsWithChildren) {
   const path = usePathname();
@@ -16,6 +17,15 @@ export default function HeaderSwitcher({ children }: PropsWithChildren) {
         { children }
       </>
     );
+  }
+
+  if (path.startsWith("/construction")) {
+    return (
+      <>
+        <HeaderContruction />
+        { children }
+      </>
+    )
   }
 
   return (
